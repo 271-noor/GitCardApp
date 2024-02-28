@@ -1,0 +1,16 @@
+.bg{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(120, 245, 203);
+}
+.btn{
+    color: white;
+    background-color: green;
+    transition: transform 0.3s, background-color 0.2s, color 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #4caf50;
+    color: white;
+
+}
