@@ -28,7 +28,18 @@ input{
     color: white;
 
 }
-/* .txt{
-    
-    text-align: center;
-} */
+.txt{
+    margin: auto;
+    padding: 15px;
+    background-color: darkgray;
+}
+.bg{
+    padding: 15px;
+    background-color: darkgray;
+}
+.name{
+    color: darkorchid;
+}
+.followers{
+    color: darkmagenta;
+}
