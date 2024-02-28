@@ -16,7 +16,7 @@ function Form(props) {
       <form onSubmit= {handleSubmit} >
         <input type={"text"} onChange ={(event) => 
           {setName(event.target.value); }}
-          value = {name}>
+          value = {name} placeholder='Enter your user Name'>
         </input>
         <button type="submit" className="btn">Add New</button>
         </form>

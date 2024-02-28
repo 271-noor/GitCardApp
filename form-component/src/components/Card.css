@@ -1,9 +1,23 @@
-.bg{
+body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(120, 245, 203);
+    background-color: lightgray;
+}
+.App {
+    text-align: center;
+  }
+  
+.App-header{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+input{
+    padding: 5px ;
 }
 .btn{
+    padding: 5px;
+    margin: 8px;
     color: white;
     background-color: green;
     transition: transform 0.3s, background-color 0.2s, color 0.3s;
@@ -14,3 +28,7 @@
     color: white;
 
 }
+/* .txt{
+    
+    text-align: center;
+} */
